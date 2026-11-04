@@ -1,0 +1,12 @@
+{
+  "replicates": 200,
+  "roc_auc_95_percentile": [
+    0.7690790290766352,
+    0.7968020663066419
+  ],
+  "ap_95_percentile": [
+    0.5359419451712569,
+    0.5889086902139642
+  ],
+  "scope": "Conditional on the frozen model and this sample; excludes selection and population-shift uncertainty."
+}

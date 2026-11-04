@@ -1,0 +1,57 @@
+{
+  "seed": 42,
+  "training_folds": 3,
+  "selected_family": "forest",
+  "selected_model": "forest",
+  "selected_configuration": {
+    "family": "forest",
+    "configuration": "depth12",
+    "parameters": {
+      "depth": 12
+    },
+    "mean_ap": 0.5529063400510853,
+    "std_ap": 0.005389594771863164,
+    "mean_roc_auc": 0.7835304065447491,
+    "fold_ap": [
+      0.5528276168475973,
+      0.5463451751813828,
+      0.5595462281242759
+    ]
+  },
+  "selection_rule": "Family/configuration: max training-CV AP; calibration: min validation Brier (raw wins ties).",
+  "capacity_assumption": 0.2,
+  "threshold": 0.3076946450463946,
+  "validation_working_point": {
+    "roc_auc": 0.7739651747254628,
+    "average_precision": 0.5336977811543739,
+    "brier": 0.13799700568463766,
+    "log_loss": 0.4368458337311794,
+    "precision": 0.5558333333333333,
+    "recall": 0.5026375282592314,
+    "f1": 0.5278986941036803,
+    "flag_rate": 0.2,
+    "threshold": 0.3076946450463946,
+    "tn": 4140,
+    "fp": 533,
+    "fn": 660,
+    "tp": 667,
+    "n": 6000,
+    "prevalence": 0.22116666666666668
+  },
+  "validation_calibration_brier": {
+    "forest": 0.13799700568463766,
+    "forest_sigmoid": 0.13920357472840947
+  },
+  "source_xls_sha256": "30c6be3abd8dcfd3e6096c828bad8c2f011238620f5369220bd60cfc82700933",
+  "split_sha256": "3f3d4a83a618d39317472802aeaa48f8a10d965d5e50b83d6d7f8fa449382593",
+  "source_code_sha256": {
+    "data.py": "8878413c6306a91468922dab67c5cccef725dca4342f06d913b56cb4cfc70b46",
+    "evaluation.py": "217bb5324a0c38394f7b4e421148da8813473e688e1d6fe40475e145ee6af955",
+    "models.py": "1b859526b7e4614b9b56fde40059368b7be6713e841a587e56ee1045e16906d0",
+    "plots.py": "4e8c6e824a1d0bb04a50662391183d0cdb42916e967b6404137e460ae39d0347",
+    "prepare.py": "38f86018fb5ad3fb44dcb3702d2cdca892a3bb5ff05ba8951fb17d2d12ae7cf6",
+    "train.py": "800b42d7e3cca3795d08b85ce614bbd12912648e447c88c5a8c3b75c8bca6b4e",
+    "__init__.py": "dcb30c796305b8300db82808af9b7e003a9416124ecdefd2cc5caf88258197da"
+  },
+  "test_policy": "All model variants predeclared; no test-driven change or refit on train+validation."
+}
