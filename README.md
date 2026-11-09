@@ -93,18 +93,3 @@ reports/                              # readable audit and model results
 docs/                                 # data dictionary, model card and interview preparation
 ```
 
-Raw data, record-level predictions, fitted joblib objects and local caches are
-Git-ignored; summary tables/figures remain shareable. The dataset license is
-CC BY 4.0. Software license selection and repository URL: **[需要真实信息]**.
-
-## Limits and honest presentation
-
-Historical snapshot, ambiguous codes/default definition, no temporal holdout,
-existing-customer selection and possible hidden duplication limit generalization.
-59 identical allowed-feature profile groups span partitions despite distinct IDs.
-Subgroup differences do not prove fairness, causality or legal compliance.
-The review illustration establishes neither intervention effectiveness nor profit.
-
-AI assisted code drafting and verification. Personal independent review and
-understanding: **[需要真实信息]**. Use the [resume draft](docs/resume_draft.md) only
-after reviewing the actual results and being able to explain its claims.
